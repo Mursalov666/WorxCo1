@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+
+header {
+  background-image: url(/images/header-image.png);
+  width: auto;
+  min-height: 850px;
+  background-size: cover;
+  background-position: inherit;
+  margin: 0;
+}
+
+.navigate{
+    text-align: center;
+    padding: 1px 2rem;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.container{
+    padding: 0 23rem;
+}
+
+/* .navigate h1{
+    text-align: start;
+    padding: 0 24px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+} */
+
+nav{
+    margin-left: 28px;
+    position: relative;
+}
+
+nav::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(143, 143, 143);
+}
+
+nav::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(143, 143, 143);
+}
+
+.navigate a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 16px 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 2px;
+    font-weight: 600;
+}
+
+.navigate a:hover{
+    background-color: #D95D03;
+}
+
+.navigate .active{
+    background-color: #D95D03;
+}
+
+.navigate img{
+    display: block;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-left: 25px;
+}
+
+/* h1::after{
+    content: 'Co';
+    top: 0;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
