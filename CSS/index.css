@@ -1,5 +1,5 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
 header {
@@ -11,15 +11,15 @@ header {
   margin: 0;
 }
 
-.navigate{
-    text-align: center;
-    padding: 1px 2rem;
-    margin-left: 50px;
-    margin-top: 0;
+.navigate {
+  text-align: center;
+  padding: 1px 2rem;
+  margin-left: 50px;
+  margin-top: 0;
 }
 
-.container{
-    padding: 0 23rem;
+.container {
+  padding: 0 23rem;
 }
 
 /* .navigate h1{
@@ -30,55 +30,55 @@ header {
     font-size: 40px;
 } */
 
-nav{
-    margin-left: 28px;
-    position: relative;
+nav {
+  margin-left: 28px;
+  position: relative;
 }
 
-nav::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 90%;
-    height: 1px;
-    background-color: rgb(143, 143, 143);
+nav::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 90%;
+  height: 1px;
+  background-color: rgb(143, 143, 143);
 }
 
-nav::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50px;
-    width: 90%;
-    height: 1px;
-    background-color: rgb(143, 143, 143);
+nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 90%;
+  height: 1px;
+  background-color: rgb(143, 143, 143);
 }
 
-.navigate a{
-    float: left;
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    padding: 16px 14px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-right: 2px;
-    font-weight: 600;
+.navigate a {
+  float: left;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 16px 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 2px;
+  font-weight: 600;
 }
 
-.navigate a:hover{
-    background-color: #D95D03;
+.navigate a:hover {
+  background-color: #d95d03;
 }
 
-.navigate .active{
-    background-color: #D95D03;
+.navigate .active {
+  background-color: #d95d03;
 }
 
-.navigate img{
-    display: block;
-    margin-right: auto;
-    margin-top: 26px;
-    margin-left: 25px;
+.navigate img {
+  display: block;
+  margin-right: auto;
+  margin-top: 26px;
+  margin-left: 25px;
 }
 
 /* h1::after{
@@ -87,3 +87,153 @@ nav::after{
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } */
+
+.routes {
+  display: flex;
+  background-color: #202020;
+  margin: auto;
+}
+
+.container-outside {
+  background-color: #202020;
+}
+
+.box3 {
+  border-right: 0.5px solid rgb(143, 143, 143);
+}
+
+.box1 {
+  border-left: 0.5px solid rgb(143, 143, 143);
+  border-right: 0.5px solid rgb(143, 143, 143);
+}
+
+.box2 {
+  width: 40%;
+  border-right: 0.5px solid rgb(143, 143, 143);
+}
+
+.top-text {
+  text-align: center;
+  color: #aaaaaa;
+  font-size: 13px;
+  font-weight: 100;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.top-text h1 {
+  margin-top: 15px;
+  font-weight: unset;
+}
+
+.img-bottom img {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.container2 {
+  padding: 0 30rem;
+}
+
+.ipad {
+  background-image: url(/images/radial-shadow.png);
+  width: auto;
+  min-height: 420px;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  position: relative;
+}
+
+.ipad::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background-color: #d95d03;
+}
+
+.sect2 {
+  position: relative;
+}
+
+.tablet-image {
+  position: absolute;
+  bottom: 0;
+  right: 24.5%;
+}
+
+.icon{
+    width: 30%;
+    padding-top: 6.5rem;
+}
+
+.icon img{
+    width: 12%;
+    float: left;
+}
+
+.span-text{
+    float: right;
+    color: #aaaaaa;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+}
+
+.span-text span:first-child{
+    font-weight: 600;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: normal;
+}
+
+.container3{
+    padding: 0 23rem;
+}
+
+.product-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.about-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.product-box{
+    width: 30%;
+}
+
+.product-box img{
+    width: 100%;
+}
+
+.center{
+    padding: 0 1rem;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
