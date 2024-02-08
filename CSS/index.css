@@ -166,74 +166,298 @@ nav::after {
   right: 24.5%;
 }
 
-.icon{
-    width: 30%;
-    padding-top: 6.5rem;
+.icon {
+  width: 30%;
+  padding-top: 6.5rem;
+  margin-left: 1px;
 }
 
-.icon img{
-    width: 12%;
-    float: left;
+.icon img {
+  width: 12%;
+  float: left;
 }
 
-.span-text{
-    float: right;
-    color: #aaaaaa;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    word-spacing: 3px;
+.span-text {
+  float: right;
+  color: #aaaaaa;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 3px;
 }
 
-.span-text span:first-child{
-    font-weight: 600;
-    font-size: 21px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    word-spacing: normal;
+.span-text span:first-child {
+  font-weight: 600;
+  font-size: 21px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  word-spacing: normal;
 }
 
-.container3{
-    padding: 0 23rem;
+.container3 {
+  padding: 0 23rem;
 }
 
-.product-list{
-    display: flex;
-    justify-content: space-between;
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.about-product .top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
-.left{
-    display: flex;
-    align-items: center;
+.left {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  color: #aaaaaa;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.about-product{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
+.left span {
+  margin-left: 14px;
+  font-size: 19px;
 }
 
-.product-box{
-    width: 30%;
+.about-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
 }
 
-.product-box img{
-    width: 100%;
+.product-box {
+  width: 31.5%;
+  background-color: #1a1a1a;
+  position: relative;
+  margin: 5px 0 5px;
 }
 
-.center{
-    padding: 0 1rem;
-    justify-content: space-between;
-    width: 80%;
+.product-box img {
+  width: 100%;
+  vertical-align: bottom;
 }
 
-.bottom{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+.prev{
+  margin-top: 68px;
+}
+
+.next{
+  margin-top: 68px;
+}
+
+.product-box:hover{
+  cursor: pointer;
+}
+
+.center {
+  padding: 0 1rem;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.about-product .bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.product-box::after {
+  content: "New";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #d95d03;
+  color: white;
+  font-weight: bold;
+  padding: 3px 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.right {
+  color: #d95d03;
+  font-weight: 100;
+  font-size: 13px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.sect3 hr {
+  background-color: #aaaaaa;
+  height: 0.1px;
+  width: 85%;
+  margin-top: 35px;
+}
+
+.sect4 .top {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.sect4 .top span {
+  color: #aaaaaa;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 14px;
+  font-size: 19px;
+}
+
+.sect4 .bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.text-box {
+  width: 32%;
+}
+
+.text-box button {
+  border: none;
+  border-radius: 4px;
+  background-color: #d95d03;
+  color: white;
+  padding: 4px 14px;
+  margin-top: 35px;
+  font-weight: bold;
+}
+
+.text-box span {
+  color: #aaaaaa;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 2px;
+}
+
+.sect4 hr {
+  background-color: #aaaaaa;
+  height: 0.1px;
+  width: 53%;
+  margin-top: 40px;
+}
+
+.sect5 .top {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.sect5 .top span {
+  color: #aaaaaa;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 14px;
+  font-size: 19px;
+}
+
+.quality-box{
+  width: 50%;
+  height: 100%;
+}
+
+.sect5 .bottom{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#box1, #box2{
+  color: #aaaaaa;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 9px;
+  margin-bottom: 35px;
+}
+
+#box3, #box4{
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 9px;
+  margin-top: 20px;
+}
+
+.sect6 .top{
+  background-color: #1a1a1a;
+  padding: 110px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sect6 .top{
+  justify-content: space-between;
+}
+
+.sect6{
+  position: relative;
+  margin-top: 140px;
+}
+
+.iphone{
+  position: absolute;
+  top: -55px;
+  left: 27%;
+}
+
+.top-right{
+  width: 47%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#span-text{
+  font-size: 22px;
+}
+
+.top-left img{
+  width: 16%;
+  height: 20%;
+  float: right;
+}
+
+.top-left{
+  width: 50%;
+}
+
+.sect6 button{
+  padding: 15px 30px;
+  background-color: #d95d03;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.sect6 .bottom{
+  display: flex;
+}
+
+.sect6 .bottom-left{
+  display: flex;
+  align-items: center;
+  text-align:center;
+  width: 33%;
+  justify-content: space-around;
+  color: #ffffff;
+}
+
+.sect6 .bottom-center{
+  display: flex;
+  width: 33%;
+  align-items: center;
+  text-align:center;
+  justify-content: space-around;
+  color: #ffffff;
+}
+
+.sect6 .bottom-right{
+  display: flex;
+  width: 33%;
+  align-items: center;
+  text-align:center;
+  justify-content: space-around;
+  color: #ffffff;
 }
